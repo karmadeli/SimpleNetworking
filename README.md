@@ -1,7 +1,8 @@
 #  JPMC iOS Coding Challenge
 
-### This is a simple iOS application writtenin Swift that presents a list New York City High Schools and upon request also presents the Math, Reading and Writting SAT scores as well as the number test takers took the exams.
----
+## About
+This is a simple iOS application written in Swift that presents a list of New York City High Schools and, upon request, also presents the Math, Reading and Writing SAT scores as well as the number  of test takers that took the exams.
+
 ## Bonus Points
 Additionally, the school listing features alphabetized sections and a section index to make for easy perusal and searching for particular schools.
 
