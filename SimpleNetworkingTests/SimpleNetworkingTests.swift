@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import _0181208_ChadMurdock_NYCSchools
+@testable import SimpleNetworking
 
-class _0181208_ChadMurdock_NYCSchoolsTests: XCTestCase {
+class SimpleNetworkingTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

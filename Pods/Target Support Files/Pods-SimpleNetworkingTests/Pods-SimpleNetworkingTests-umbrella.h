@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_20181208_ChadMurdock_NYCSchoolsTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_20181208_ChadMurdock_NYCSchoolsTestsVersionString[];
+FOUNDATION_EXPORT double Pods_SimpleNetworkingTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SimpleNetworkingTestsVersionString[];
 

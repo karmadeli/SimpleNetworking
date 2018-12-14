@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8F7C5780290FF99025703ACF868B1F58"
-               BuildableName = "Pods_20181208_ChadMurdock_NYCSchoolsTests.framework"
-               BlueprintName = "Pods-20181208-ChadMurdock-NYCSchoolsTests"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "1FAE303421BBF57700E68590"
+               BuildableName = "SimpleNetworking.app"
+               BlueprintName = "SimpleNetworking"
+               ReferencedContainer = "container:SimpleNetworking.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1FAE304821BBF57800E68590"
+               BuildableName = "SimpleNetworkingTests.xctest"
+               BlueprintName = "SimpleNetworkingTests"
+               ReferencedContainer = "container:SimpleNetworking.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1FAE303421BBF57700E68590"
+            BuildableName = "SimpleNetworking.app"
+            BlueprintName = "SimpleNetworking"
+            ReferencedContainer = "container:SimpleNetworking.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +61,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8F7C5780290FF99025703ACF868B1F58"
-            BuildableName = "Pods_20181208_ChadMurdock_NYCSchoolsTests.framework"
-            BlueprintName = "Pods-20181208-ChadMurdock-NYCSchoolsTests"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "1FAE303421BBF57700E68590"
+            BuildableName = "SimpleNetworking.app"
+            BlueprintName = "SimpleNetworking"
+            ReferencedContainer = "container:SimpleNetworking.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +80,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1FAE303421BBF57700E68590"
+            BuildableName = "SimpleNetworking.app"
+            BlueprintName = "SimpleNetworking"
+            ReferencedContainer = "container:SimpleNetworking.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

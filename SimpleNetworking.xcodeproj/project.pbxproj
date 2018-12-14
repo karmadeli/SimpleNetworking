@@ -14,7 +14,7 @@
 		1FAE303E21BBF57700E68590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE303C21BBF57700E68590 /* Main.storyboard */; };
 		1FAE304021BBF57800E68590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE303F21BBF57800E68590 /* Assets.xcassets */; };
 		1FAE304321BBF57800E68590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE304121BBF57800E68590 /* LaunchScreen.storyboard */; };
-		1FAE304E21BBF57800E68590 /* _0181208_ChadMurdock_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE304D21BBF57800E68590 /* _0181208_ChadMurdock_NYCSchoolsTests.swift */; };
+		1FAE304E21BBF57800E68590 /* SimpleNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE304D21BBF57800E68590 /* SimpleNetworkingTests.swift */; };
 		1FAE305D21BC029400E68590 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE305C21BC029400E68590 /* DetailedViewController.swift */; };
 		1FAE305F21BC033000E68590 /* ScoresClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE305E21BC033000E68590 /* ScoresClient.swift */; };
 		1FAE306121BC2D8A00E68590 /* SchoolClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE306021BC2D8A00E68590 /* SchoolClient.swift */; };
@@ -24,6 +24,8 @@
 		1FAE306B21BC382D00E68590 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE306921BC382D00E68590 /* CustomTableViewCell.xib */; };
 		1FAE307021BC698200E68590 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE306F21BC698200E68590 /* Section.swift */; };
 		1FAE307221BC6C3500E68590 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE307121BC6C3500E68590 /* TableViewModel.swift */; };
+		449FB3659CC2EA8EB3DBFAE7 /* Pods_SimpleNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836E49356EC395673D311C7D /* Pods_SimpleNetworking.framework */; };
+		7521D3CDB7F0BEA72E71A97C /* Pods_SimpleNetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC42E1CC36BE7CAADD1A0DA /* Pods_SimpleNetworkingTests.framework */; };
 		9C8F43578F71D37A3F49A9FC /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAF1CCB9C8852DB408D021B /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework */; };
 		B8EE41F027ABDBD581DCA508 /* Pods_20181208_ChadMurdock_NYCSchools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442456E8B96B8F4A7E70A1D0 /* Pods_20181208_ChadMurdock_NYCSchools.framework */; };
 /* End PBXBuildFile section */
@@ -42,15 +44,15 @@
 		1F6C444121BC7A14001E0792 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		1F6C444321BC7BC0001E0792 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		1F6C446321BE99BA001E0792 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1FAE303521BBF57700E68590 /* 20181208-ChadMurdock-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20181208-ChadMurdock-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAE303521BBF57700E68590 /* SimpleNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAE303821BBF57700E68590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FAE303A21BBF57700E68590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FAE303D21BBF57700E68590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FAE303F21BBF57800E68590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FAE304221BBF57800E68590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FAE304421BBF57800E68590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FAE304921BBF57800E68590 /* 20181208-ChadMurdock-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20181208-ChadMurdock-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FAE304D21BBF57800E68590 /* _0181208_ChadMurdock_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0181208_ChadMurdock_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		1FAE304921BBF57800E68590 /* SimpleNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAE304D21BBF57800E68590 /* SimpleNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNetworkingTests.swift; sourceTree = "<group>"; };
 		1FAE304F21BBF57800E68590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FAE305C21BC029400E68590 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		1FAE305E21BC033000E68590 /* ScoresClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresClient.swift; sourceTree = "<group>"; };
@@ -62,10 +64,16 @@
 		1FAE306F21BC698200E68590 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		1FAE307121BC6C3500E68590 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		38810AF2F39E49AD764D430F /* Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig"; path = "Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchools/Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig"; sourceTree = "<group>"; };
+		40532FB43FC3B14D3F2486CF /* Pods-SimpleNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetworking/Pods-SimpleNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		442456E8B96B8F4A7E70A1D0 /* Pods_20181208_ChadMurdock_NYCSchools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20181208_ChadMurdock_NYCSchools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAF3A94CDF4692E0CAB7C4D /* Pods-SimpleNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetworking/Pods-SimpleNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		632B887E2696AD62D72F5064 /* Pods-SimpleNetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetworkingTests/Pods-SimpleNetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
 		8125F3D9CD1BC47CDA2E1D15 /* Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchoolsTests/Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		836E49356EC395673D311C7D /* Pods_SimpleNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC42E1CC36BE7CAADD1A0DA /* Pods_SimpleNetworkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNetworkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18A3605B200C3644936FE2E /* Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchoolsTests/Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E513186E5D2D67194F1E2C54 /* Pods-20181208-ChadMurdock-NYCSchools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20181208-ChadMurdock-NYCSchools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchools/Pods-20181208-ChadMurdock-NYCSchools.debug.xcconfig"; sourceTree = "<group>"; };
+		E7751D1F2B07B64F11154C15 /* Pods-SimpleNetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetworkingTests/Pods-SimpleNetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEAF1CCB9C8852DB408D021B /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20181208_ChadMurdock_NYCSchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8EE41F027ABDBD581DCA508 /* Pods_20181208_ChadMurdock_NYCSchools.framework in Frameworks */,
+				449FB3659CC2EA8EB3DBFAE7 /* Pods_SimpleNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8F43578F71D37A3F49A9FC /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework in Frameworks */,
+				7521D3CDB7F0BEA72E71A97C /* Pods_SimpleNetworkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				1F6C446321BE99BA001E0792 /* README.md */,
-				1FAE303721BBF57700E68590 /* 20181208-ChadMurdock-NYCSchools */,
-				1FAE304C21BBF57800E68590 /* 20181208-ChadMurdock-NYCSchoolsTests */,
+				1FAE303721BBF57700E68590 /* SimpleNetworking */,
+				1FAE304C21BBF57800E68590 /* SimpleNetworkingTests */,
 				1FAE303621BBF57700E68590 /* Products */,
 				52D2D01E6BA626DA2B3D0DDC /* Pods */,
 				96F032C733857E58E3F01792 /* Frameworks */,
@@ -140,13 +150,13 @@
 		1FAE303621BBF57700E68590 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FAE303521BBF57700E68590 /* 20181208-ChadMurdock-NYCSchools.app */,
-				1FAE304921BBF57800E68590 /* 20181208-ChadMurdock-NYCSchoolsTests.xctest */,
+				1FAE303521BBF57700E68590 /* SimpleNetworking.app */,
+				1FAE304921BBF57800E68590 /* SimpleNetworkingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1FAE303721BBF57700E68590 /* 20181208-ChadMurdock-NYCSchools */ = {
+		1FAE303721BBF57700E68590 /* SimpleNetworking */ = {
 			isa = PBXGroup;
 			children = (
 				1FAE303821BBF57700E68590 /* AppDelegate.swift */,
@@ -159,16 +169,16 @@
 				1FAE303F21BBF57800E68590 /* Assets.xcassets */,
 				1FAE304421BBF57800E68590 /* Info.plist */,
 			);
-			path = "20181208-ChadMurdock-NYCSchools";
+			path = SimpleNetworking;
 			sourceTree = "<group>";
 		};
-		1FAE304C21BBF57800E68590 /* 20181208-ChadMurdock-NYCSchoolsTests */ = {
+		1FAE304C21BBF57800E68590 /* SimpleNetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				1FAE304D21BBF57800E68590 /* _0181208_ChadMurdock_NYCSchoolsTests.swift */,
+				1FAE304D21BBF57800E68590 /* SimpleNetworkingTests.swift */,
 				1FAE304F21BBF57800E68590 /* Info.plist */,
 			);
-			path = "20181208-ChadMurdock-NYCSchoolsTests";
+			path = SimpleNetworkingTests;
 			sourceTree = "<group>";
 		};
 		1FAE305821BBF70C00E68590 /* ViewModel */ = {
@@ -198,6 +208,10 @@
 				38810AF2F39E49AD764D430F /* Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig */,
 				E18A3605B200C3644936FE2E /* Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig */,
 				8125F3D9CD1BC47CDA2E1D15 /* Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig */,
+				40532FB43FC3B14D3F2486CF /* Pods-SimpleNetworking.debug.xcconfig */,
+				4DAF3A94CDF4692E0CAB7C4D /* Pods-SimpleNetworking.release.xcconfig */,
+				E7751D1F2B07B64F11154C15 /* Pods-SimpleNetworkingTests.debug.xcconfig */,
+				632B887E2696AD62D72F5064 /* Pods-SimpleNetworkingTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -207,6 +221,8 @@
 			children = (
 				442456E8B96B8F4A7E70A1D0 /* Pods_20181208_ChadMurdock_NYCSchools.framework */,
 				EEAF1CCB9C8852DB408D021B /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework */,
+				836E49356EC395673D311C7D /* Pods_SimpleNetworking.framework */,
+				CDC42E1CC36BE7CAADD1A0DA /* Pods_SimpleNetworkingTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,9 +230,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FAE303421BBF57700E68590 /* 20181208-ChadMurdock-NYCSchools */ = {
+		1FAE303421BBF57700E68590 /* SimpleNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FAE305221BBF57800E68590 /* Build configuration list for PBXNativeTarget "20181208-ChadMurdock-NYCSchools" */;
+			buildConfigurationList = 1FAE305221BBF57800E68590 /* Build configuration list for PBXNativeTarget "SimpleNetworking" */;
 			buildPhases = (
 				9EE33FEB0469773CDFCC0776 /* [CP] Check Pods Manifest.lock */,
 				1FAE303121BBF57700E68590 /* Sources */,
@@ -228,14 +244,14 @@
 			);
 			dependencies = (
 			);
-			name = "20181208-ChadMurdock-NYCSchools";
+			name = SimpleNetworking;
 			productName = "20181208-ChadMurdock-NYCSchools";
-			productReference = 1FAE303521BBF57700E68590 /* 20181208-ChadMurdock-NYCSchools.app */;
+			productReference = 1FAE303521BBF57700E68590 /* SimpleNetworking.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1FAE304821BBF57800E68590 /* 20181208-ChadMurdock-NYCSchoolsTests */ = {
+		1FAE304821BBF57800E68590 /* SimpleNetworkingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FAE305521BBF57800E68590 /* Build configuration list for PBXNativeTarget "20181208-ChadMurdock-NYCSchoolsTests" */;
+			buildConfigurationList = 1FAE305521BBF57800E68590 /* Build configuration list for PBXNativeTarget "SimpleNetworkingTests" */;
 			buildPhases = (
 				21B1D330F6269421E367BAC9 /* [CP] Check Pods Manifest.lock */,
 				1FAE304521BBF57800E68590 /* Sources */,
@@ -247,9 +263,9 @@
 			dependencies = (
 				1FAE304B21BBF57800E68590 /* PBXTargetDependency */,
 			);
-			name = "20181208-ChadMurdock-NYCSchoolsTests";
+			name = SimpleNetworkingTests;
 			productName = "20181208-ChadMurdock-NYCSchoolsTests";
-			productReference = 1FAE304921BBF57800E68590 /* 20181208-ChadMurdock-NYCSchoolsTests.xctest */;
+			productReference = 1FAE304921BBF57800E68590 /* SimpleNetworkingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +287,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1FAE303021BBF57700E68590 /* Build configuration list for PBXProject "20181208-ChadMurdock-NYCSchools" */;
+			buildConfigurationList = 1FAE303021BBF57700E68590 /* Build configuration list for PBXProject "SimpleNetworking" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,8 +300,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FAE303421BBF57700E68590 /* 20181208-ChadMurdock-NYCSchools */,
-				1FAE304821BBF57800E68590 /* 20181208-ChadMurdock-NYCSchoolsTests */,
+				1FAE303421BBF57700E68590 /* SimpleNetworking */,
+				1FAE304821BBF57800E68590 /* SimpleNetworkingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +339,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-20181208-ChadMurdock-NYCSchoolsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SimpleNetworkingTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -336,7 +352,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchools/Pods-20181208-ChadMurdock-NYCSchools-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNetworking/Pods-SimpleNetworking-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -345,7 +361,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchools/Pods-20181208-ChadMurdock-NYCSchools-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNetworking/Pods-SimpleNetworking-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9EE33FEB0469773CDFCC0776 /* [CP] Check Pods Manifest.lock */ = {
@@ -359,7 +375,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-20181208-ChadMurdock-NYCSchools-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SimpleNetworking-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -392,7 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FAE304E21BBF57800E68590 /* _0181208_ChadMurdock_NYCSchoolsTests.swift in Sources */,
+				1FAE304E21BBF57800E68590 /* SimpleNetworkingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +417,7 @@
 /* Begin PBXTargetDependency section */
 		1FAE304B21BBF57800E68590 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FAE303421BBF57700E68590 /* 20181208-ChadMurdock-NYCSchools */;
+			target = 1FAE303421BBF57700E68590 /* SimpleNetworking */;
 			targetProxy = 1FAE304A21BBF57800E68590 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -544,17 +560,17 @@
 		};
 		1FAE305321BBF57800E68590 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E513186E5D2D67194F1E2C54 /* Pods-20181208-ChadMurdock-NYCSchools.debug.xcconfig */;
+			baseConfigurationReference = 40532FB43FC3B14D3F2486CF /* Pods-SimpleNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YAR3GA7FS8;
-				INFOPLIST_FILE = "20181208-ChadMurdock-NYCSchools/Info.plist";
+				INFOPLIST_FILE = SimpleNetworking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.karmadeliworks.-0181208-ChadMurdock-NYCSchools";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karmadeliworks.SimpleNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,17 +579,17 @@
 		};
 		1FAE305421BBF57800E68590 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38810AF2F39E49AD764D430F /* Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig */;
+			baseConfigurationReference = 4DAF3A94CDF4692E0CAB7C4D /* Pods-SimpleNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YAR3GA7FS8;
-				INFOPLIST_FILE = "20181208-ChadMurdock-NYCSchools/Info.plist";
+				INFOPLIST_FILE = SimpleNetworking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.karmadeliworks.-0181208-ChadMurdock-NYCSchools";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karmadeliworks.SimpleNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,56 +598,56 @@
 		};
 		1FAE305621BBF57800E68590 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E18A3605B200C3644936FE2E /* Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig */;
+			baseConfigurationReference = E7751D1F2B07B64F11154C15 /* Pods-SimpleNetworkingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "20181208-ChadMurdock-NYCSchoolsTests/Info.plist";
+				INFOPLIST_FILE = SimpleNetworking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.karmadeliworks.-0181208-ChadMurdock-NYCSchoolsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karmadeliworks.SimpleNetworkingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20181208-ChadMurdock-NYCSchools.app/20181208-ChadMurdock-NYCSchools";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleNetworking.app/SimpleNetworking";
 			};
 			name = Debug;
 		};
 		1FAE305721BBF57800E68590 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8125F3D9CD1BC47CDA2E1D15 /* Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig */;
+			baseConfigurationReference = 632B887E2696AD62D72F5064 /* Pods-SimpleNetworkingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "20181208-ChadMurdock-NYCSchoolsTests/Info.plist";
+				INFOPLIST_FILE = SimpleNetworking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.karmadeliworks.-0181208-ChadMurdock-NYCSchoolsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karmadeliworks.SimpleNetworkingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20181208-ChadMurdock-NYCSchools.app/20181208-ChadMurdock-NYCSchools";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleNetworking.app/SimpleNetworking";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FAE303021BBF57700E68590 /* Build configuration list for PBXProject "20181208-ChadMurdock-NYCSchools" */ = {
+		1FAE303021BBF57700E68590 /* Build configuration list for PBXProject "SimpleNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FAE305021BBF57800E68590 /* Debug */,
@@ -640,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FAE305221BBF57800E68590 /* Build configuration list for PBXNativeTarget "20181208-ChadMurdock-NYCSchools" */ = {
+		1FAE305221BBF57800E68590 /* Build configuration list for PBXNativeTarget "SimpleNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FAE305321BBF57800E68590 /* Debug */,
@@ -649,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FAE305521BBF57800E68590 /* Build configuration list for PBXNativeTarget "20181208-ChadMurdock-NYCSchoolsTests" */ = {
+		1FAE305521BBF57800E68590 /* Build configuration list for PBXNativeTarget "SimpleNetworkingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FAE305621BBF57800E68590 /* Debug */,

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D1F430018CBCEBE631B0D0A682F95A2"
-               BuildableName = "Pods_20181208_ChadMurdock_NYCSchools.framework"
-               BlueprintName = "Pods-20181208-ChadMurdock-NYCSchools"
+               BlueprintIdentifier = "FE6DE4088AFD162E6440AFE4C285761F"
+               BuildableName = "Pods_SimpleNetworking.framework"
+               BlueprintName = "Pods-SimpleNetworking"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6D1F430018CBCEBE631B0D0A682F95A2"
-            BuildableName = "Pods_20181208_ChadMurdock_NYCSchools.framework"
-            BlueprintName = "Pods-20181208-ChadMurdock-NYCSchools"
+            BlueprintIdentifier = "FE6DE4088AFD162E6440AFE4C285761F"
+            BuildableName = "Pods_SimpleNetworking.framework"
+            BlueprintName = "Pods-SimpleNetworking"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

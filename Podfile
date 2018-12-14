@@ -1,14 +1,13 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target '20181208-ChadMurdock-NYCSchools' do
+target 'SimpleNetworking' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for 20181208-ChadMurdock-NYCSchools
 	pod 'Alamofire'
 
-  target '20181208-ChadMurdock-NYCSchoolsTests' do
+  target 'SimpleNetworkingTests' do
     inherit! :search_paths
     # Pods for testing
   end
