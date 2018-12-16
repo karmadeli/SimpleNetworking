@@ -1,7 +1,3 @@
-//
-//  _0181208_ChadMurdock_NYCSchoolsTests.swift
-//  20181208-ChadMurdock-NYCSchoolsTests
-//
 //  Created by Chad Murdock on 12/8/18.
 //  Copyright © 2018 KarmaDeli Works. All rights reserved.
 //
