@@ -26,7 +26,6 @@
 		1FAE307221BC6C3500E68590 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE307121BC6C3500E68590 /* TableViewModel.swift */; };
 		449FB3659CC2EA8EB3DBFAE7 /* Pods_SimpleNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836E49356EC395673D311C7D /* Pods_SimpleNetworking.framework */; };
 		7521D3CDB7F0BEA72E71A97C /* Pods_SimpleNetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC42E1CC36BE7CAADD1A0DA /* Pods_SimpleNetworkingTests.framework */; };
-		9C8F43578F71D37A3F49A9FC /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAF1CCB9C8852DB408D021B /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8F43578F71D37A3F49A9FC /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework in Frameworks */,
 				7521D3CDB7F0BEA72E71A97C /* Pods_SimpleNetworkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
