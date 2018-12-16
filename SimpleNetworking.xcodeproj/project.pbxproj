@@ -27,7 +27,6 @@
 		449FB3659CC2EA8EB3DBFAE7 /* Pods_SimpleNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836E49356EC395673D311C7D /* Pods_SimpleNetworking.framework */; };
 		7521D3CDB7F0BEA72E71A97C /* Pods_SimpleNetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC42E1CC36BE7CAADD1A0DA /* Pods_SimpleNetworkingTests.framework */; };
 		9C8F43578F71D37A3F49A9FC /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAF1CCB9C8852DB408D021B /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework */; };
-		B8EE41F027ABDBD581DCA508 /* Pods_20181208_ChadMurdock_NYCSchools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442456E8B96B8F4A7E70A1D0 /* Pods_20181208_ChadMurdock_NYCSchools.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,16 +62,12 @@
 		1FAE306921BC382D00E68590 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		1FAE306F21BC698200E68590 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		1FAE307121BC6C3500E68590 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
-		38810AF2F39E49AD764D430F /* Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig"; path = "Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchools/Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig"; sourceTree = "<group>"; };
 		40532FB43FC3B14D3F2486CF /* Pods-SimpleNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetworking/Pods-SimpleNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		442456E8B96B8F4A7E70A1D0 /* Pods_20181208_ChadMurdock_NYCSchools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20181208_ChadMurdock_NYCSchools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAF3A94CDF4692E0CAB7C4D /* Pods-SimpleNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetworking/Pods-SimpleNetworking.release.xcconfig"; sourceTree = "<group>"; };
 		632B887E2696AD62D72F5064 /* Pods-SimpleNetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetworkingTests/Pods-SimpleNetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
-		8125F3D9CD1BC47CDA2E1D15 /* Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchoolsTests/Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		836E49356EC395673D311C7D /* Pods_SimpleNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC42E1CC36BE7CAADD1A0DA /* Pods_SimpleNetworkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNetworkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E18A3605B200C3644936FE2E /* Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchoolsTests/Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E513186E5D2D67194F1E2C54 /* Pods-20181208-ChadMurdock-NYCSchools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20181208-ChadMurdock-NYCSchools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-20181208-ChadMurdock-NYCSchools/Pods-20181208-ChadMurdock-NYCSchools.debug.xcconfig"; sourceTree = "<group>"; };
 		E7751D1F2B07B64F11154C15 /* Pods-SimpleNetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetworkingTests/Pods-SimpleNetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEAF1CCB9C8852DB408D021B /* Pods_20181208_ChadMurdock_NYCSchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20181208_ChadMurdock_NYCSchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8EE41F027ABDBD581DCA508 /* Pods_20181208_ChadMurdock_NYCSchools.framework in Frameworks */,
 				449FB3659CC2EA8EB3DBFAE7 /* Pods_SimpleNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,10 +198,6 @@
 		52D2D01E6BA626DA2B3D0DDC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E513186E5D2D67194F1E2C54 /* Pods-20181208-ChadMurdock-NYCSchools.debug.xcconfig */,
-				38810AF2F39E49AD764D430F /* Pods-20181208-ChadMurdock-NYCSchools.release.xcconfig */,
-				E18A3605B200C3644936FE2E /* Pods-20181208-ChadMurdock-NYCSchoolsTests.debug.xcconfig */,
-				8125F3D9CD1BC47CDA2E1D15 /* Pods-20181208-ChadMurdock-NYCSchoolsTests.release.xcconfig */,
 				40532FB43FC3B14D3F2486CF /* Pods-SimpleNetworking.debug.xcconfig */,
 				4DAF3A94CDF4692E0CAB7C4D /* Pods-SimpleNetworking.release.xcconfig */,
 				E7751D1F2B07B64F11154C15 /* Pods-SimpleNetworkingTests.debug.xcconfig */,
